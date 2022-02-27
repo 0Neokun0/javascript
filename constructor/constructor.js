@@ -1,15 +1,17 @@
 // constructor function
-function Person (person_name, person_age, person_gender) {
+class Person {
+    constructor(person_name, person_age, person_gender) {
 
-    // assigning  parameter values to the calling object
-     this.name = person_name,
-     this.age = person_age,
-     this.gender = person_gender,
- 
-     this.greet = function () {
-         return ('Hi' + ' ' + this.name);
-     }
- }
+        // assigning  parameter values to the calling object
+            this.name = person_name,
+            this.age = person_age,
+            this.gender = person_gender,
+
+            this.greet = function () {
+                return (`Hi ${this.name}`);
+            };
+    }
+}
  
  
  // creating objects
