@@ -1,20 +1,20 @@
 // Variable
 const student = {
-    firstName: "0Neokun0"
-}
+  firstName: "0Neokun0",
+};
 
 // Getter Property
-Object.defineProperty( student, "getName", {
-    get : function () {
-        return this.firstName;
-    }
+Object.defineProperty(student, "getName", {
+  get: function () {
+    return this.firstName;
+  },
 });
 
 // Setter Property
 Object.defineProperty(student, "changeName", {
-    set : function (value) {
-        this.firstName = value;
-    }
+  set: function (value) {
+    this.firstName = value;
+  },
 });
 
 console.log(student.firstName); // 0Neokun0
