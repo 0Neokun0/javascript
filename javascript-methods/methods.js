@@ -1,8 +1,8 @@
 const person = {
-  name: 'Nishant',
+  name: "Nishant",
   age: 26,
   greet: function () {
-    let surname = 'Meher';
+    let surname = "Meher";
     console.log(`My name is ${this.name} ${surname}`);
   },
 };

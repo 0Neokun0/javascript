@@ -15,8 +15,8 @@ class Person {
  
  
  // creating objects
- const person1 = new Person('Nishant', 23, 'male');
- const person2 = new Person('Sam', 25, 'female');
+ const person1 = new Person("Nishant", 23, "male");
+ const person2 = new Person("Sam", 25, "female");
  
  // accessing properties
  console.log(person1.name); // "Nishant"
