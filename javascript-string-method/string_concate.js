@@ -7,5 +7,5 @@ let str1 = "Hello";
 let str2 = "World";
 
 // Concatenating Two Strings
-let newSrt = str1.concate(", ", str2, "!");
+let newStr = str1.concat(", ", str2, "!");
 console.log(newStr);
