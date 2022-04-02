@@ -1,5 +1,5 @@
 let map1 = new Map();
-map1.set('name', 'JNishant');
+map1.set('name', 'Nishant');
 map1.set('age', '27');
 
 // looping through the Map
